@@ -103,3 +103,22 @@ nav.daftar-isi a:hover{
 #enter-btn:hover{
   background-color: #8b91ac;
 }
+.btn-back{
+  margin-top: 1.5rem;
+  
+}
+
+.btn-back button{
+  font-family: "Funnel Display", sans-serif;
+  background-color: #0d0d15;
+  color: #b0b0d0;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-back button:hover{
+  background-color: #11111b;
+}
