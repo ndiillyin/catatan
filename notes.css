@@ -1,0 +1,108 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #8b959d;
+  background: linear-gradient(#6A7791, #242944);
+  background-repeat: non-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 1.5rem;
+  margin: auto;
+  line-height: 1.3;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+header h1{
+  font-size: 1.8rem;
+  border-bottom: 1px solid #161825;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+nav.daftar-isi{
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #161825;
+}
+
+nav.daftat-isi ul{
+  list-style: none;
+  padding: 0;
+}
+
+nav.daftar-isi a{
+  color: #252539;
+  text-decoration: none;
+}
+
+nav.daftar-isi li{
+  margin-bottom: 0.5rem;
+}
+
+nav.daftar-isi a:hover{
+  text-decoration: underline;
+  color: #fff;
+}
+
+.notes{
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-bottom: 1px solid #161825;
+}
+
+.dates{
+  font-size: 0.8rem;
+  color: #161616;
+  margin-bottom: 0.2rem;
+}
+
+.the-notes{
+  white-space: pre-line;
+  text-align: justify;
+}
+
+.notes-footer{
+  font-size: 0.8rem;
+  color: black;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-top: 1px dashed black;
+  padding-top: 0.5rem;
+  font-family: italic;
+}
+.popup{
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: enter;
+  align-items: center;
+  z-index: 9999;
+}
+
+.popup-content{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #696895;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  max-width: 300px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+#enter-btn{
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  background-color: #505983;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#enter-btn:hover{
+  background-color: #8b91ac;
+}
