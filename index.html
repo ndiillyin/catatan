@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <link rel="stylesheet" href="notes.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
+    <title>Notes</title>
+  </head>
+  <body>
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <h3>Satu-satunya kebenaran di halaman ini, saya selalu salah</h3>
+        <button id="enter-btn">Lanjut</button>
+      </div>
+    </div>
+         <div class="img"><img src= "https://img1.picmix.com/output/stamp/normal/5/9/8/6/2726895_1871a.png" alt="png" width="30%"></div>
+    <audio id="bgm" src="dark-ambient-music-312290.mp3" loop></audio>
+    <header><h1>Catatan</h1></header>
+    <h6>Selamat datang di kepala saya, tap untuk<em> fast-scroll</em></h6>
+    <nav class="daftar-isi">
+      <ul>
+        <li><a href="#catatan-11">11 Juli 2025</a></li>
+        <li><a href="#catatan-12">12 Juli 2025</a></li>
+      </ul>
+    </nav>
+    
+    <main>
+      <section class="notes" id="catatan-11">
+        <p class="dates">11 Juli 2025</p>
+        <div class="notes-body">
+        <p class="the-notes">Catatan pertama dari halaman website ini, sekaligus pembuka dari perjalanan website ini.
+          
+          <p>"Menjadi terlalu sadar adalah sebuah penyakit— penyakit yang benar-benar dalam”.</p>
+          
+          <p class="the-notes">Catatan di atas ditulis oleh <em>Fyodor Dostoevsky</em>, sang penulis dari Russia. Kutipan itu diambil dari salah satu karyanya <em>Notes From Underground</em>. Catatan di atas adalah pembuka sekaligus petunjuk asal muasal catatan saya kedepannya.</p>
+        </div>
+        <footer class="notes-footer">
+          <em>Notes From Underground</em>  karya <em>Fyodor Dostoevsky</em>
+        </footer>
+      </section>
+      
+            <section class="notes" id="catatan-12">
+        <p class="dates">12 Juli 2025</p>
+        <div class="notes-body">
+        <p class="the-notes">Aku muak kepada para idealis yang menggebu-gebu menyampaikan ide utopia mereka, namun mereka lupa akan kenyataan bahwasanya mereka tidak punya kuasa akan angan-angannya, kecuali bisa mengubah khayalannya.</p>
+        
+        <p class="the-notes">Aku juga muak kepada para realis yang menyembunyikan kelemahan mereka di balik kata "Yang terjadi yang terbaik" mereka mengatakan mereka realistis, namun mereka menolak penderitaan yang lebih nyata daripada harapan mereka. Menyedihkan</p>
+        
+        <p class="the-notes">Padahal kedua pemikiran ini jika dikombinasikan sangatlah bagus sang<em> Idealis </em>dan<em> Realis </em>, tapi siapa yang mau berkhayal akan kebijaksanaan, reputasi, harta di saat piring mereka kering tanpa makanan? Bukan aku tentunya tuan-tuan.</p>
+        </div>
+        <footer class="notes-footer">
+          Pada akhirnya, pemikiranku bisa saja salah. Mungkin aku salah menilai dari sudut pandang eksistensialis. Seperti kebiasaan para filsuf, tentu saja aku bukan filsuf ahaha.
+        </footer>
+      </section>
+    </main>
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const popup = document.getElementById("popup");
+    const enterBtn = document.getElementById("enter-btn");
+    const bgm = document.getElementById("bgm");
+
+    enterBtn.addEventListener("click", function () {
+      popup.style.display = "none";   // Tutup popup
+      bgm.play();                     // Mulai musik
+    });
+  });
+</script>
+  </body>
+  </html>
