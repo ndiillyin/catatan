@@ -64,6 +64,7 @@ nav.daftar-isi a:hover{
 .the-notes{
   white-space: pre-line;
   text-align: justify;
+  line-height: 1.3;
 }
 
 .notes-footer{
