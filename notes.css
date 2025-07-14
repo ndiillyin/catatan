@@ -94,7 +94,7 @@ nav.daftar-isi a:hover{
   padding: 10px 20px;
   font-weight: bold;
   border: none;
-  background-color: #505983;
+  background-color: #3c4468;
   color: white;
   border-radius: 6px;
   cursor: pointer;
@@ -113,12 +113,12 @@ nav.daftar-isi a:hover{
   background-color: #0d0d15;
   color: #b0b0d0;
   border: none;
-  padding: 0.5rem 1rem;
-  font-size: 0.8rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.9rem;
   border-radius: 10px;
   cursor: pointer;
 }
 
 .btn-back button:hover{
   background-color: #11111b;
-}
+    }
